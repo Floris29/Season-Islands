@@ -111,4 +111,29 @@ li:hover::after {
 .epic {
     float: right;
     background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.epic {position: relative;}
+.epic .download {
+    position: absolute;
+    bottom: 25%;
+    right: 45%;
+}
+
+.download{
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 12px 36px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.download:hover {
+    background-color: #4CAF50;
 }
