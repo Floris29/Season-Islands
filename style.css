@@ -1,0 +1,201 @@
+.headder {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.description {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(../img/Title_2.png);
+    height: 450px;
+    background-position: center;
+}
+
+.html, body {
+    font-family: sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+
+.Available{
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+    font-size: 100px;
+    font-weight: 600;
+    background-color: black
+}
+
+
+
+
+.epic {position: relative;}
+.epic .download {
+    position: absolute;
+    bottom: 24%;
+    right: 44%;
+}
+
+.download{
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 17px 52px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+
+.invisble {
+    color: black;
+    background-color: black;
+}
+
+.download:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.abouth{
+    text-align: center;
+    background-color: orangered;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.aboutd {
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-weight: 900;
+}
+
+.changelog {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 17px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        left: 42%;
+}
+
+.changelog:hover {
+    background-color: limegreen;
+    color: black;
+    font-weight: bold;
+}
+
+.changelogtext {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: #008037;
+}
+
+.idea {
+    text-align: left;
+    color: black;
+    font-family: fantasy;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #6fb4fd
+}
+
+.idea2 {
+    text-align: right;
+    color: black;
+    font-family: fantasy;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #6fb4fd
+}
+
+.idea3 {
+    text-align: left;
+    color: black;
+    font-family: fantasy;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #6fb4fd
+}
+
+
